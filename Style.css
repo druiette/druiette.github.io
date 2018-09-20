@@ -1,0 +1,69 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    background: url('./Background.jpg');
+    background-size: cover;
+    
+}
+h1 {
+    color:blueviolet;
+
+}
+table, th, td{
+    border:1px solid black;
+    
+}
+
+
+
+.oneven{
+    background-color: purple;
+}
+
+.even{
+    background-color: green;
+}
+
+.oneven:hover, .even:hover{
+    background-color: blue;
+}
+
+.contentbox1{  /*index*/
+position: absolute;
+left: 500px;
+right: 500px;
+top: 100px;
+color: black;
+background-color: white;
+z-index: 20;
+width: 800px;
+height: 835px;
+}
+
+.contentbox2{  /*hobby*/
+    position: absolute;
+    left: 500px;
+    right: 500px;
+    top: 100px;
+    color: black;
+    background-color: white;
+    z-index: 20;
+    width: 800px;
+    height: 800px;
+}
+
+    .contentbox3{ /*contact*/
+        position: absolute;
+        left: 500px;
+        right: 500px;
+        top: 100px;
+        color: black;
+        background-color: white;
+        z-index: 20;
+        width: 800px;
+        height: 600px;
+    }
+
+
+
+
